@@ -1,0 +1,276 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+  --color-1:#008def;
+  --color-2:#18181a;
+  --color-3:#ffffff;
+  --color-4:rgb(184, 181, 181);
+  --color-5:#90025c;
+}
+
+.color-1{ 
+  color: var(--color-1);
+}
+.color-2{
+  color: var(--color-2);
+}
+.color-3{
+  color: var(--color-3);
+}
+.color-5{
+  color: var(--color-5);
+}
+.text-gray{
+  color: var(--color-4);
+}
+.bg-color{
+ background-color: var(--color-1);
+}
+.bg-color-1{
+  color: var(--color-2);
+}
+.bg-color-2{
+background-color: var(--color-4);
+}
+
+.Active {
+  color: var(--color1) !important;
+}
+.container{
+  max-width: 1240px !important;
+  margin: auto;
+}
+ul,
+li,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+.section-padding {
+  padding: 80px 0px;
+}
+.section-padding-top {
+  padding-top: 80px;
+}
+.section-padding-bottom {
+  padding-bottom: 80px;
+}
+@media(max-width:576px){
+  .section-padding {
+    padding: 40px 0px;
+  }
+  .section-padding-top {
+    padding-top: 40px;
+  }
+  .section-padding-bottom {
+    padding-bottom: 40px;
+  }
+}
+
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-26 {
+  font-size: 26px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-50 {
+  font-size: 50px;
+}
+.font-60 {
+  font-size: 60px;
+}
+.font-70 {
+  font-size: 70px;
+}
+.font-80 {
+  font-size: 80px;
+}
+/*  */
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background-color: #131312;
+  border-radius: 40px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+/* accordion css */
+/* if you need accordion css then you have to keep it in your code other wise delete it  */
+/* ===========================  theme accordion css ====================================== */
+#theme-accoudion ul li{
+  display: flex;
+  align-items: center;
+}
+#theme-accordion ul li::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--color1);
+    margin-right: 10px;
+    line-height: -2px;
+    /* margin-top: 12px; */
+    position: absolute;
+    left: -8px;
+    top: 14px;
+}
+
+
+
+#theme-accordion #accordionExample{
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+#theme-accordion .accordion-button:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+/* close button background color */
+#theme-accordion .accordion-button.collapsed {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, #0973DB 0%, #10A8D7 100%) !important;
+
+  box-shadow: none !important;
+}
+
+/* open button background color */
+#theme-accordion .accordion-button:not(.collapsed) {
+  color: #2c2c2c !important;
+  background: rgb(221, 221, 221) !important;
+  box-shadow: none !important;
+}
+
+#theme-accordion .accordion-button::after {
+  content: "+";
+background: transparent !important;
+  transform: rotate(0) !important;
+  font-size: 18px;
+}
+#theme-accordion .accordion-button:not(.collapsed):after {
+  content: "-";
+  font-size: 20px;
+}
+
+#theme-accordion .accordion-item {
+  margin-bottom: 15px;
+  border: 1px solid rgba(0,0,0,.125) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+#theme-accordion .accordion-header button{
+  font-weight: 500;
+
+}
+
+/* carasoul dots or nav css start */
+.owl-dot.active span{
+  background-color: var(--color1) !important;
+ }
+ .owl-dot span{
+  width: 35px !important;
+  height: 5px !important;
+ }
+
+.modal-header{
+  color: black;
+  background-color: var(--color1) !important;
+}
+.modal-header .btn-close{
+  background: none;
+  opacity: 1;
+  box-shadow: none;
+  
+}
+.modal-dialog{
+  padding: 0px 100px;
+}
+.modal-dialog .modal-content{
+border-radius: 10px;
+overflow: hidden;
+}
+.modal-header .btn-close::after{
+  content: "\F62A";
+  font-family: bootstrap-icons;
+  font-size: 30px;
+  color: rgb(24, 23, 23);
+}
+.modal form button{
+  padding: 7px 20px;
+  background-color: var(--color2);
+  color: white;
+  border: none;
+
+}
+ 

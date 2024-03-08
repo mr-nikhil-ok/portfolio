@@ -1,0 +1,92 @@
+@media (max-width:992px) {
+    #header .nav{
+        display: none !important;
+    }
+    .dots{
+        display: none;
+    }
+}
+
+/* ---------------=============------------------- */
+
+
+
+@media (max-width:768px) {
+    
+}
+
+
+
+
+
+/* ---------------=============------------------- */
+
+
+
+
+@media (max-width:576px) {
+    .myname{
+        margin-top: 0;
+        }
+        .myname h1{
+            font-size: 35px;
+            margin-top: 10px !important;
+        }
+        .myname .ui{
+            font-size: 16px;
+        }
+        #slider{
+            margin-top: 70px;
+        }
+        .contact-me {
+            padding: 12px 30px;
+            padding-right: 50px;
+            margin-top: 30px !important;
+        }
+        #slider .img-box {
+            height: 440px;
+            padding-left: 0;
+        }
+        #header {
+            padding: 0px 0px;
+        }
+        .myLogo{
+            font-size: 30px;
+        }
+         .nav-tabs .nav-link {
+            margin-right: 26px;
+        } 
+        .about-content{
+           margin-left: 0 !important;
+        }
+
+        .heading p{
+           font-size: 14px;
+           margin-bottom: 25px !important;
+        }
+         .heading h2{
+           font-size: 30px;
+           margin-bottom: 15px !important;
+        }
+         .heading-2 h2{
+           font-size: 30px;
+           margin-bottom: 15px !important;
+        }
+        video{
+            height: 130vh;
+          }
+          .contact-me-2{
+            margin-top: 0 !important;
+          }
+          #footer{
+            padding: 0px;
+          }
+          .cv-btn{
+            margin-top: 0 !important;
+          }
+          .my-Work-btn{
+            text-align: left !important;
+            margin-top: 0 !important;
+          }
+    }
+ 
